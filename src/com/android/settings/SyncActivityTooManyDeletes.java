@@ -89,21 +89,6 @@ public class SyncActivityTooManyDeletes extends Activity
         ll.addView(textView, lp);
         ll.addView(listView, lp);
 
-        // TODO: consider displaying the icon of the account type
-//        AuthenticatorDescription[] descs = AccountManager.get(this).getAuthenticatorTypes();
-//        for (AuthenticatorDescription desc : descs) {
-//            if (desc.type.equals(mAccount.type)) {
-//                try {
-//                    final Context authContext = createPackageContext(desc.packageName, 0);
-//                    ImageView imageView = new ImageView(this);
-//                    imageView.setImageDrawable(authContext.getResources().getDrawable(desc.iconId));
-//                    ll.addView(imageView, lp);
-//                } catch (PackageManager.NameNotFoundException e) {
-//                }
-//                break;
-//            }
-//        }
-
         setContentView(ll);
     }
 

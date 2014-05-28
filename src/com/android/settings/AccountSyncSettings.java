@@ -160,7 +160,6 @@ public class AccountSyncSettings extends AccountPreferenceBase implements OnClic
         mRemoveAccountButton = (Button) findViewById(R.id.remove_account_button);
         mRemoveAccountButton.setOnClickListener(this);
 
-
         mDateFormat = DateFormat.getDateFormat(this);
         mTimeFormat = DateFormat.getTimeFormat(this);
 

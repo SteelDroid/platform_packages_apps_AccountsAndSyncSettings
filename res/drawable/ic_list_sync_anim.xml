@@ -25,4 +25,3 @@
     <item android:drawable="@drawable/ic_list_sync_anim2" android:duration="150" />
     <item android:drawable="@drawable/ic_list_sync_anim3" android:duration="150" />
 </animation-list>
-
